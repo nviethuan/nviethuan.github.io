@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function (event) {
   const infomation = addElement(app, document.createElement('h2'), {
     id: 'infomation'
   });
-  
+
   addElement(infomation, a = document.createElement('a'), {
     href: '#infomation'
-  }, function() {
+  }, function () {
     addText(a, '## Infomation')
   });
 
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   addElement(works, a = document.createElement('a'), {
     href: '#works'
-  }, function() {
+  }, function () {
     addText(a, '## Works')
   });
 
@@ -98,24 +98,24 @@ document.addEventListener('DOMContentLoaded', function (event) {
     });
     table.innerHTML = `
       <tr>
-        <td><strong>${ job.place.type }: </strong></td>
-        <td>${ job.place.name }</td>
+        <td><strong>${ job.place.type}: </strong></td>
+        <td>${ job.place.name}</td>
       </tr>
       <tr>
         <td><strong>Address: </strong></td>
-        <td>${ job.place.address }</td>
+        <td>${ job.place.address}</td>
       </tr>
       <tr>
         <td><strong>Time: </strong></td>
-        <td>${ job.time }</td>
+        <td>${ job.time}</td>
       </tr>
       <tr>
         <td><strong>Project: </strong></td>
-        <td>${ job.project }</td>
+        <td>${ job.project}</td>
       </tr>
       <tr>
         <td><strong>Description: </strong></td>
-        <td>${ job.description }</td>
+        <td>${ job.description}</td>
       </tr>
     `
   });
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   addElement(skills, a = document.createElement('a'), {
     href: '#works'
-  }, function() {
+  }, function () {
     addText(a, '## Skills')
   });
   addElement(app, document.createElement('hr'));
