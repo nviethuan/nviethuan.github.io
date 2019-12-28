@@ -1,15 +1,5 @@
-@font-face {
-  font-family: NotoSans;
-  src: url(/assets/fonts/Noto_Sans/NotoSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: NotoSans-Bold;
-  src: url(/assets/fonts/Noto_Sans/NotoSans-Bold.ttf);
-}
-
 html {
-  font-family: NotoSans;
+  font-family: 'Noto Sans', sans-serif;;
   margin: 0.5em 1em;
   scroll-behavior: smooth;
 }
@@ -20,7 +10,6 @@ a {
 }
 
 h1 {
-  font-family: NotoSans-Bold;
   font-size: 30px;
   color: black;
 }
@@ -43,6 +32,20 @@ h1#logo:hover span {
   -webkit-text-stroke: 1px black;
 }
 
+code#motto {
+  display: block;
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  font-size: 16px;
+  text-align: justify;
+}
+
+code#motto a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
 small#menu {
   display: block;
 }
@@ -52,5 +55,5 @@ small#menu a:hover {
 }
 
 table tr td {
-  padding: 5px 20px;
+  padding: 5px;
 }
