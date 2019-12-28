@@ -9,27 +9,13 @@ a {
   color: black;
 }
 
-h1 {
-  font-size: 30px;
-  color: black;
-}
-
-h1#logo {
-  display: inline-block;
-}
-
-h1#logo:hover a {
-  color: white;
-  -webkit-text-stroke: 1.5px black;
-}
-
-h1#logo span {
+h1 span {
   font-size: 14px;
 }
 
-h1#logo:hover span {
-  color: white;
+h1:hover a, h1:hover span {
   -webkit-text-stroke: 1px black;
+  color: white;
 }
 
 code#motto {
