@@ -197,193 +197,146 @@ document.addEventListener('DOMContentLoaded', function (event) {
   const skillDatas = [
     {
       name: 'Node.JS',
-      experience: '',
-      projects: [],
-      posts: '',
-      contribute: [],
+      Quotes: 'Made anything, since 2018',
+      Projects: [
+        {
+          name: 'OTF',
+          ref: '#works',
+        },
+        {
+          name: 'CryptoBadge Backend',
+          ref: 'https://cryptobadge.app/',
+        }
+      ],
+      Posts: [],
+      Contributed: [],
     },
     {
-      name: 'Javascript',
-      experience: '',
-      projects: [],
-      posts: '',
-      contribute: [],
+      name: 'Restful API',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
     },
-    // {
-    //   name: 'Restful API',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Microservice',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'GraphQL',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Serverless - AWS',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Angular',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Docker',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'NPM',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Blockchain - EOS.JS',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Git',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Testing',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Authentication',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Database SQL/NoSQL',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Linux/Shell',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Memory Cache',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Messege Brokers',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Search Engine',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Web Server',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'OS concepts',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Networking & Security',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'CI/CD',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Infrastruture Monitoring',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Application Monitoring',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Cloud Providers',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'Log Management',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
-    // {
-    //   name: 'English',
-    //   experience: '',
-    //   projects: [],
-    //   posts: '',
-    //   contribute: [],
-    // },
+    {
+      name: 'GraphQL',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Serverless - AWS',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Angular',
+      Quotes: 'Strong framework and annual publication',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Docker',
+      Quotes: 'Keep calm it works on my machine https://koukia.ca/why-docker-pros-and-cons-949d104478c5',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'NPM',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Blockchain - EOS.JS',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Git',
+      Quotes: 'The nature of life is to change. Don\'t trust anything.',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Testing',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Authentication',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Database SQL/NoSQL',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Messege Brokers',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Search Engine',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Web Server',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'OS concepts',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Networking & Security',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'Cloud Providers',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
+    {
+      name: 'English',
+      Quotes: '',
+      Projects: [],
+      Posts: [],
+      Contributed: [],
+    },
   ];
   
   const skillWrapper = addElement(app, document.createElement('div'), {
@@ -391,15 +344,37 @@ document.addEventListener('DOMContentLoaded', function (event) {
   })
   
   skillDatas.forEach(skill => {
-    const h3 = addElement(skillWrapper, document.createElement('h3'), {
+    const h4 = addElement(skillWrapper, document.createElement('h4'), {
       id: skill.name.replace(/\s/g, ''),
     });
-    addElement(h3, document.createElement('a'), {
+    addElement(h4, document.createElement('a'), {
       href: `#${ skill.name.replace(/\s/g, '') }`,
-      style: 'color: #438ab3'
-    }).innerHTML = `# ${ skill.name }`;
+      style: 'color: #438ab3; display: inline;'
+    }).innerHTML = `# ${ skill.name }:`;
+    addElement(h4, document.createElement('span'), {
+      style: 'color: #aaa; font-weight: 100; font-style: italic;'
+    }).innerHTML = skill.Quotes && `&nbsp;"${ skill.Quotes }"`;
 
-    addElement(skillWrapper, document.createElement('h4')).innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lorem isump'
+    const ulSkill = addElement(skillWrapper, document.createElement('ul'), {
+      style: 'list-style-type: none',
+    });
+    Object.getOwnPropertyNames(skill).forEach(key => {
+      if(key !== 'name' && Array.isArray(skill[key]) && skill[key].length) {
+        const li = addElement(ulSkill, document.createElement('li'));
+        addElement(li, document.createElement('strong')).innerHTML = `${ key }: `;
+        skill[key].forEach((e, i) => {
+          addElement(li, document.createElement('a'), {
+            href: e.ref,
+            target: /\#.*/g.test(e.ref) ? '' : '_blank',
+            style: `
+              text-decoration: underline;
+              font-style: italic;
+            `
+          }).innerHTML = `${ e.name }`;
+          addElement(li, document.createElement('span')).innerHTML = `${ i === skill[key].length - 1 ? '' : ', ' }`;
+        });
+      }
+    })
   });
   addElement(app, document.createElement('hr'));
   addElement(app, document.createElement('footer'), {

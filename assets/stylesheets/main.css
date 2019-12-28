@@ -18,7 +18,7 @@ h1:hover a, h1:hover span {
   color: white;
 }
 
-code#motto {
+code {
   display: block;
   background: #333;
   color: #fff;
@@ -27,7 +27,7 @@ code#motto {
   text-align: justify;
 }
 
-code#motto a {
+code a {
   color: #aaa;
   text-decoration: underline;
 }
