@@ -21,6 +21,16 @@ ul#list-work {
   padding-left: 0;
 }
 
+ul#list-work li {
+  margin: 1em 0;
+}
+
+ul#list-work li table tr td a.link-name{
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+
 #skill-list {
   padding-left: 40px;
 }
@@ -31,4 +41,16 @@ table tr td {
 
 footer {
   text-align: center;
+}
+
+table tr td.key {
+  width: 200px;
+}
+
+#table-infomation tr td a {
+  text-decoration: underline;
+}
+
+.right {
+  float: right;
 }
