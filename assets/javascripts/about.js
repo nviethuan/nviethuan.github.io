@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   const usr = {
     Fullname: {
-      html: 'NGUYEN VIET HUAN',
+      html: 'NGUYỄN VIỆT HUẤN',
     },
     Job: {
       html: 'Website Developer',
