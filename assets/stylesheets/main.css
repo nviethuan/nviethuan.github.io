@@ -36,10 +36,6 @@ small#menu {
   display: block;
 }
 
-small#menu a:hover {
-  text-decoration: underline;
-}
-
 img {
   margin: 1em 0;
   display: block;
