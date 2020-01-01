@@ -5,20 +5,48 @@ html {
 }
 
 a {
-  text-decoration: none;
   color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+h1 {
+  display: inline-block;
 }
 
 h1 span {
   font-size: 14px;
 }
 
-h1:hover a, h1:hover span {
+h1 a {
+  text-decoration: none;
+}
+
+h1:hover a, h1:hover a span {
+  background-color: white;
   -webkit-text-stroke: 1px black;
   color: white;
 }
 
-code {
+small#menu {
+  display: block;
+}
+
+small#menu a:hover {
+  text-decoration: underline;
+}
+
+img {
+  margin: 1em 0;
+  display: block;
+}
+
+
+
+/* code {
   display: block;
   background: #333;
   color: #fff;
@@ -32,14 +60,6 @@ code a {
   text-decoration: underline;
 }
 
-small#menu {
-  display: block;
-}
-
-small#menu a:hover {
-  text-decoration: underline;
-}
-
 table tr td {
   padding: 5px;
-}
+} */
