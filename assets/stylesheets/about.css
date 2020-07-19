@@ -16,6 +16,24 @@ code a {
   text-decoration: underline;
 }
 
+h2#objective {
+  margin-top: 0;
+}
+
+ul li {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
+.skill-highlight {
+  font-size: 20px;
+  color: #333;
+  font-style: italic;
+}
+
 ul#list-work {
   list-style-type: none;
   padding-left: 0;
