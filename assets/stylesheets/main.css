@@ -4,6 +4,18 @@ html {
   scroll-behavior: smooth;
 }
 
+@media print {
+  .pagebreak {
+    page-break-before: always;
+    clear: both;
+  } /* page-break-after works, as well */
+
+  .hidden-on-print {
+    display: none;
+    visibility:hidden;
+  }
+}
+
 a {
   color: black;
 }

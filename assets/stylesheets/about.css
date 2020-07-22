@@ -24,14 +24,22 @@ ul li {
   text-align: justify;
 }
 
-p {
+/* p {
   text-align: justify;
-}
+} */
 
 .skill-highlight {
   font-size: 20px;
   color: #333;
   font-style: italic;
+}
+
+.skill-item {
+  margin: 0.25em;
+  padding: 0.25em;
+  border: 1px solid black;
+  display: inline-block;
+  /* border-radius: %; */
 }
 
 ul#list-work {
