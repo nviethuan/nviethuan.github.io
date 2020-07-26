@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Sans', sans-serif;;
+  font-family: 'Noto Sans', sans-serif;
   margin: 0.5em 1em;
   scroll-behavior: smooth;
 }
@@ -56,5 +56,5 @@ img {
 table {
   width: '100%';
   border: 0 solid black;
-  padding-inline-start: 40px;
+  padding-inline-start: 5px;
 }

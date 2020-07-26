@@ -16,17 +16,17 @@ code a {
   text-decoration: underline;
 }
 
-h2#objective {
+#logo {
+  margin-bottom: 0;
+}
+
+h2#objective, H4 {
   margin-top: 0;
 }
 
 ul li {
   text-align: justify;
 }
-
-/* p {
-  text-align: justify;
-} */
 
 .skill-highlight {
   font-size: 20px;
@@ -39,7 +39,6 @@ ul li {
   padding: 0.25em;
   border: 1px solid black;
   display: inline-block;
-  /* border-radius: %; */
 }
 
 ul#list-work {
@@ -48,7 +47,7 @@ ul#list-work {
 }
 
 ul#list-work li {
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 
 ul#list-work li table tr td a.link-name{
@@ -57,12 +56,17 @@ ul#list-work li table tr td a.link-name{
   font-style: italic;
 }
 
+ul.job-description {
+  list-style-type: none;
+  text-indent: 2em;
+}
+
 #skill-list {
   padding-left: 40px;
 }
 
 table tr td {
-  padding: 5px;
+  padding: 0 5px;
 }
 
 footer {
@@ -70,10 +74,18 @@ footer {
 }
 
 table tr td.key {
-  width: 200px;
+  width: 110px;
 }
 
-#table-infomation tr td a {
+#education {
+  margin-bottom: 5px;
+}
+
+#table-education {
+  padding-inline-start: 0 !important;
+}
+
+#table-education tr td a {
   text-decoration: underline;
 }
 
