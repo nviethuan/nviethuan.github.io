@@ -57,8 +57,12 @@ ul#list-work li table tr td a.link-name{
 }
 
 ul.job-description {
-  list-style-type: none;
+  list-style-type: '-';
   text-indent: 2em;
+}
+
+ul.job-description li {
+  margin: 0 !important;
 }
 
 #skill-list {
@@ -74,7 +78,7 @@ footer {
 }
 
 table tr td.key {
-  width: 110px;
+  width: 175px;
 }
 
 #education {
