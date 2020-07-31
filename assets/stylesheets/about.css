@@ -58,7 +58,7 @@ ul#list-work li table tr td a.link-name{
 
 ul.job-description {
   list-style-type: '-';
-  text-indent: 2em;
+  text-indent: 1.5em;
 }
 
 ul.job-description li {
@@ -67,10 +67,6 @@ ul.job-description li {
 
 #skill-list {
   padding-left: 40px;
-}
-
-table tr td {
-  padding: 0 5px;
 }
 
 footer {
